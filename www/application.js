@@ -9,20 +9,30 @@ function loadImages (url, container){
       });
      // initialize anythingSlider
       $( '#ri-grid' ).gridrotator( {
-					rows		: 3,
-					columns		: 15,
-					animType	: 'fadeInOut',
-					animSpeed	: 1000,
-					interval	: 600,
-					step		: 1,
-					w320		: {
-						rows	: 3,
-						columns	: 4
+					rows : 3,
+					columns : 9,
+					maxStep : 2,
+					interval : 2000,
+					w1024 : {
+						rows : 4,
+						columns : 9
 					},
-					w240		: {
-						rows	: 3,
-						columns	: 4
-					}
+					w768 : {
+						rows : 4,
+						columns : 8
+					},
+					w480 : {
+						rows : 5,
+						columns : 5
+					},
+					w320 : {
+						rows : 7,
+						columns : 5
+					},
+					w240 : {
+						rows : 7,
+						columns : 4
+					},
 				} );
     }
   });
