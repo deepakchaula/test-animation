@@ -295,9 +295,9 @@
 						$item = this.$items.eq( idx );
 
 					$item.css( {
-						width : j < Math.floor( gapWidth ) ? itemWidth + 1 : itemWidth,
-						height : itemWidth
-					} );
+						/*width : j < Math.floor( gapWidth ) ? itemWidth + 1 : itemWidth,
+						height : 75 + "vh"*/
+				} );
 
 					if( $.inArray( idx, this.options.nochange ) !== -1 ) {
 						$item.addClass( 'ri-nochange' ).data( 'nochange', true );

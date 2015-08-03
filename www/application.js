@@ -9,29 +9,29 @@ function loadImages (url, container){
       });
      // initialize anythingSlider
       $( '#ri-grid' ).gridrotator( {
-					rows : 3,
-					columns : 9,
+					rows : 1,
+					columns : 5,
 					maxStep : 2,
 					interval : 2000,
 					w1024 : {
-						rows : 4,
-						columns : 9
+						rows : 1,
+						columns : 5
 					},
 					w768 : {
-						rows : 4,
-						columns : 8
+						rows : 1,
+						columns : 5
 					},
 					w480 : {
-						rows : 5,
+						rows : 1,
 						columns : 5
 					},
 					w320 : {
-						rows : 7,
+						rows : 1,
 						columns : 5
 					},
 					w240 : {
-						rows : 7,
-						columns : 4
+						rows : 1,
+						columns : 5
 					},
 				} );
     }

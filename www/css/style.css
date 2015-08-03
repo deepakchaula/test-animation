@@ -1,5 +1,5 @@
 .ri-grid{
-	margin: 30px auto 30px;
+	margin: 0px;
 	position: relative;
 	height: auto;
 }
@@ -129,4 +129,29 @@
 	left: 50%;
 	margin: 100px 0 0 -15px;
 	display: block;
+}
+.ri-grid ul li{
+	background-size: cover;
+}
+.ri-grid ul li:nth-child(1){
+	width: 40%;
+	height: 70vh;
+}
+.ri-grid ul li:nth-child(2){
+	width: 60%;
+	height: 50vh;
+}
+.ri-grid ul li:nth-child(3){
+	width: 20%;
+	height: 20vh;
+}
+.ri-grid ul li:nth-child(4){
+	width: 40%;
+	height: 47vh;
+	float: right;
+}
+.ri-grid ul li:nth-child(5){
+	width: 60%;
+	height: 27vh;
+	float: left;
 }
